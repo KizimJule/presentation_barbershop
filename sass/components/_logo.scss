@@ -1,0 +1,30 @@
+.logo {
+  color: $colorFocus;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  &--up {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 123px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  &--down {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  &__header {
+    color: $colorH2-h3;
+  }
+
+  &__footer {
+    color: $whiteColor;
+  }
+}

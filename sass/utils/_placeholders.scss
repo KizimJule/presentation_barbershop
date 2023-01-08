@@ -1,0 +1,15 @@
+%flexBetweenCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%listStyleNone {
+  list-style-type: none;
+}
+
+%flexCenterCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,34 @@
+.shopper {
+  height: 100vh;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__general {
+    display: flex;
+  }
+
+  &__name {
+    color: $colorSenks;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+.shopper__elements {
+  flex-basis: calc((100% - 40px) / 2);
+
+  &--one {
+    margin-right: 80px;
+  }
+}
+
+.shopper__item {
+  font-size: 24px;
+  color: $currentColor;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

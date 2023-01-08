@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $colorText;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #d41443;
+  margin-bottom: 40px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+main {
+  flex: 1;
+}
+footer {
+  flex-shrink: 0;
+}

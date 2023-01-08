@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmoteka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" />
+    <link rel="apple-icon" sizes="180x180" href="./images/favicon/favicon.png" />
+    <link rel="mask-icon" href="./images/favicon/favicon.svg" color="#ff6b08" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header class="header header-home">
+      <div class="container header__container">
+        <nav class="header-nav">
+          <a href="https://kyzym.github.io/this-team/" class="logo logo--up link" target="_blank">
+            <svg class="icon-home" width="24" height="24" style="stroke: white">
+              <use href="./images/sprite.svg#logo"></use>
+            </svg>
+            <span class="logo-span">Filmoteka</span>
+          </a>
+
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./index.html">thisTeam</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./shopper.html">Користувач</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./benefits.html">Переваги</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./technology.html">Технології</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./team.html">Команда</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="./road.html">Складнощі</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--current" href="./senks.html">Дякуємо</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="thanks section">
+        <div class="container" id="canvas_id">
+          <h1 class="title thanks__title"><span class="opacity">1</span></h1>
+          <ul class="thanks__list">
+            <li class="thanks__member">
+              <picture>
+                <img
+                  class="thanks__photo"
+                  src="./images/thanks/ser-d.jpg"
+                  alt="Сергій Дикий"
+                  width="300"
+                />
+              </picture>
+
+              <div class="thanks__descr">
+                <h3 class="thanks__name">Сергій Дикий</h3>
+                <p class="thanks__section">Ментор</p>
+              </div>
+            </li>
+            <li class="thanks__member">
+              <picture>
+                <img
+                  class="thanks__photo"
+                  src="./images/thanks/ann-a.jpg"
+                  alt="Анна Абаджиєва"
+                  width="300"
+                />
+              </picture>
+
+              <div class="thanks__descr">
+                <h3 class="thanks__name">Анна Абаджиєва</h3>
+                <p class="thanks__section">Клієнт-менеджер</p>
+              </div>
+            </li>
+
+            <li class="thanks__photo--logo">
+              <img class="thanks__" src="./images/thanks/logo.png" alt="Logo goit" width="400" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <span class="footer__top">&#169; 2022 | All Rights Reserved |&nbsp;</span>
+        <div class="footer__bottom">
+          <span>Developed with</span>
+          <svg width="14" height="13" class="icon-heart">
+            <use href="./images/sprite.svg#heart"></use>
+          </svg>
+          <span>by</span>
+          <a class="footer__link"> GoIT Students </a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/print-senks.js"></script>
+    <script type="module" src="./js/confetti.js"></script>
+  </body>
+</html>

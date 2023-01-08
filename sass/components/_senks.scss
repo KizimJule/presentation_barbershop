@@ -1,0 +1,67 @@
+.thanks {
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    margin: -10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @extend %listStyleNone;
+    flex-wrap: wrap;
+  }
+
+  &__descr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  &__member {
+    background-color: $whiteColor;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+
+    border: 1px solid transparent;
+    margin: 10px;
+
+    flex-basis: calc((100% - 400px) / 2);
+    height: 520px;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $currentColor;
+    margin-bottom: 10px;
+  }
+
+  &__position {
+    font-size: 19px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $colorSenks;
+    margin-bottom: 10px;
+  }
+
+  &__photo {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__section {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $colorH2-h3;
+  }
+}
