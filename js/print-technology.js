@@ -1,7 +1,7 @@
 let line = 0;
 let count = 0;
 let result = '';
-let text = 'Стек використовуваних технологій';
+let text = 'A stack of used technologies';
 function typeLine() {
   let interval = setTimeout(() => {
     result += text[line][count];

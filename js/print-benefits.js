@@ -1,20 +1,7 @@
-// var i = 0;
-// var txt = 'Чому саме Filmoteka'; /* Текст */
-// var speed = 80; /* Скорость/длительность эффекта в миллисекундах */
-
-// function typeWriter() {
-//   if (i < txt.length) {
-//     document.querySelector('.benefits__title').innerHTML += txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//   }
-// }
-// typeWriter();
-
 let line = 0;
 let count = 0;
 let result = '';
-let text = 'Чому саме Filmoteka';
+let text = 'Why you should choose a BarberShop';
 function typeLine() {
   let interval = setTimeout(() => {
     result += text[line][count];

@@ -18,6 +18,7 @@
 
 .shopper__elements {
   flex-basis: calc((100% - 40px) / 2);
+  text-align: start;
 
   &--one {
     margin-right: 80px;

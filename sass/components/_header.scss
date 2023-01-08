@@ -6,8 +6,9 @@
   width: 100vw;
   margin: 0 auto;
   padding-top: 12px;
-  background-image: url('../images/header/home-desk.jpg');
-  background-image: url('../images/header/home-mob.webp');
+  background-color: darkgray;
+  // background-image: url('../images/header/home-desk.jpg');
+  // background-image: url('../images/header/home-mob.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -22,38 +23,38 @@
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .header-home {
-    background-image: url('../images/header/home-mob@2x.jpg');
-  }
+  // .header-home {
+  //   background-image: url('../images/header/home-mob@2x.jpg');
+  // }
 }
 
 @media (min-width: 321px) {
-  .header-home {
-    background-image: url('../images/header/home-tab.jpg');
-  }
+  // .header-home {
+  //   background-image: url('../images/header/home-tab.jpg');
+  // }
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .header-home {
-      background-image: url('../images/header/home-tab@2x.jpg');
-    }
+    // .header-home {
+    //   background-image: url('../images/header/home-tab@2x.jpg');
+    // }
   }
 }
 
 @media (min-width: 768px) {
-  .header-home {
-    background-image: url('../images/header/home-desk.jpg');
-  }
+  // .header-home {
+  //   background-image: url('../images/header/home-desk.jpg');
+  // }
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .header-home {
-      background-image: url('../images/header/home-desk@2x.jpg');
-    }
+    // .header-home {
+    //   background-image: url('../images/header/home-desk@2x.jpg');
+    // }
   }
 }
 
@@ -138,7 +139,7 @@
       color: $colorFocus;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       padding-top: 32px;
       padding-bottom: 32px;
     }
@@ -152,4 +153,25 @@
 
 .contact-quickly__list:not(:last-child) {
   margin-right: 50px;
+}
+
+.main-img {
+  padding: 20px 0;
+  display: block;
+  margin: auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text-centered {
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
